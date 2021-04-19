@@ -10,6 +10,9 @@ module.exports = {
         pulpy: "#301934",
         palegreen: "#1f4026",
       },
+      fontFamily: {
+        poppins: "Poppins",
+      },
     },
   },
   variants: {

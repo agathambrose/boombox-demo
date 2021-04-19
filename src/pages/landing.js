@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Landing = () => {
   return (
-    <div className="bg-purply min-h-screen overflow-auto bg-scroll relative">
+    <div className="bg-purply min-h-screen overflow-auto bg-scroll relative font-poppins">
       <Header />
 
       <section>

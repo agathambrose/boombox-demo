@@ -3,7 +3,7 @@ import Logo from "../assets/Logo-Nav.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="flex md:flex-row justify-between items-center m-auto md:px-16 py-3 mb-4">
+    <header className="flex md:flex-row justify-between items-center m-auto md:px-16 py-3 mb-4 font-poppins">
       <Link to="/">
         <img className="object-contain h-16" src={Logo} alt="Logo" />
       </Link>

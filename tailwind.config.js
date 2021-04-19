@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        purply: "#1e001e",
+        purply: "#160F29",
         pulp: "#5C246E",
         pulpy: "#301934",
         palegreen: "#1f4026",

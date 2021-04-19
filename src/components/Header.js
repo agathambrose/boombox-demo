@@ -7,10 +7,10 @@ const Header = () => {
       <img className="object-contain h-16" src={Logo} alt="Logo" />
 
       <div className="flex justify-between items-center text-white h-16">
-        <Link to="/discover" className="md:w-28 w-20 h-8 text-lg hover:text-gray-200">
+        <Link to="/discover" className="md:w-28 w-20 text-lg hover:text-gray-200">
           Discover
         </Link>
-        <Link to="/join" className="w-16 h-8 text-lg hover:text-gray-200">
+        <Link to="/join" className="w-16 text-lg hover:text-gray-200">
           Join
         </Link>
       </div>

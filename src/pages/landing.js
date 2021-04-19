@@ -8,11 +8,11 @@ export const Landing = () => {
     <div className="bg-purply min-h-screen relative">
       <Header />
 
-      <span className="bg-pulp flex rounded-full md:p-12 p-16 absolute md:top-80 top-40 md:right-60 right-8">
+      <span className="bg-pulp flex rounded-full md:p-12 p-16 absolute md:top-80 top-40 md:right-60 right-0">
         <div></div>
       </span>
 
-      <span className="bg-palegreen flex rounded-full md:p-24 p-10 absolute md:bottom-10 md:-left-5 bottom-0 left-8">
+      <span className="bg-palegreen flex rounded-full md:p-24 p-10 absolute md:bottom-10 md:-left-5 bottom-5 left-0">
         <div></div>
       </span>
 
@@ -20,7 +20,7 @@ export const Landing = () => {
         <div></div>
       </span>
 
-      <div className="md:flex md:justify-evenly px-10 md:px-0 pt-4 md:pt-0 items-center justify-center absolute left-8 mx-auto">
+      <div className="md:flex md:justify-evenly px-10 md:px-0 pt-4 md:pt-0 items-center justify-center absolute mx-auto">
         <img src={Afro} alt="img" className="md:w-2/6 md:mt-10 mt-3" />
 
         <div className="text-white flex flex-col items-center text-center py-3 ">

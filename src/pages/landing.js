@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Landing = () => {
   return (
-    <div className="bg-purply min-h-screen relative">
+    <div className="bg-purply min-h-screen overflow-auto relative">
       <Header />
 
       <span className="bg-pulp flex rounded-full md:p-12 p-16 absolute md:top-80 top-40 md:right-60 right-0">

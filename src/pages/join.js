@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 export const Join = () => {
   return (
-    <main className="container bg-purply min-h-screen">
+    <main className="container bg-purply min-h-screen min-w-full">
       <Header />
 
       <div className="container flex flex-col md:flex-row justify-center items-center">

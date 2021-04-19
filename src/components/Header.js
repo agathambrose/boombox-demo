@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className="flex md:flex-row justify-between items-center m-auto md:px-16 py-3 mb-4">
-      <img className="object-contain h-16" src={Logo} alt="Logo" />
+      <Link to="/">
+        <img className="object-contain h-16" src={Logo} alt="Logo" />
+      </Link>
 
       <div className="flex justify-between items-center text-white h-16">
-        <Link to="/discover" className="md:w-28 w-20 text-lg hover:text-gray-200">
+        <Link
+          to="/discover"
+          className="md:w-28 w-20 text-lg hover:text-gray-200"
+        >
           Discover
         </Link>
         <Link to="/join" className="w-16 text-lg hover:text-gray-200">

@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer className="flex justify-between items-center px-4 md:px-16 py-5 text-white bg-black mt-8">
       <div>
-        <Link className="md:mr-10 mr-6">About</Link>
-        <Link>Contact</Link>
+        <Link className="md:mr-10 mr-4">About</Link>
+        <Link className="mr-4">Contact</Link>
       </div>
 
       <div className="flex items-center">
@@ -16,7 +16,7 @@ const Footer = () => {
           <TiSocialTwitterCircular className="text-pink-800 text-3xl mr-2" />
 
           <div>
-            <Link className="md:mr-10 mr-6">Twitter</Link>
+            <Link className="md:mr-10 mr-4">Twitter</Link>
           </div>
         </div>
 

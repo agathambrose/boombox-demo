@@ -5,7 +5,7 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center px-4 md:px-16 py-5 text-white bg-black mt-8">
+    <footer className="flex justify-between items-center px-4 md:px-16 py-5 text-white bg-black mt-8">
       <div>
         <Link className="md:mr-10 mr-6">About</Link>
         <Link>Contact</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -4,11 +4,11 @@ import Header from "../components/Header";
 
 export const Join = () => {
   return (
-    <div className="bg-purply h-full">
+    <main className="container bg-purply min-h-screen">
       <Header />
 
-      <div className="flex flex-col md:flex-row justify-center items-center">
-        <h1 className="md:text-6xl text-4xl text-white font-bold md:mr-6 my-4">
+      <div className="container flex flex-col md:flex-row justify-center items-center">
+        <h1 className="md:text-6xl text-4xl text-white text-center font-bold md:mr-6 my-4">
           Join the <span className="text-pink-700">boom</span> fun.
         </h1>
 
@@ -42,6 +42,6 @@ export const Join = () => {
       </div>
 
       <Footer/>
-    </div>
+    </main>
   );
 };

@@ -11,11 +11,11 @@ const Header = () => {
       <div className="flex justify-between items-center text-white h-16">
         <Link
           to="/discover"
-          className="md:w-28 w-20 text-lg hover:text-gray-200"
+          className="md:w-28 md:w-20 w-20 text-base hover:text-gray-200"
         >
           Discover
         </Link>
-        <Link to="/join" className="w-16 text-lg hover:text-gray-200">
+        <Link to="/join" className="md:w-16 w-10 text-base hover:text-gray-200">
           Join
         </Link>
       </div>

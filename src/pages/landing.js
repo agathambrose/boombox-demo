@@ -8,7 +8,7 @@ export const Landing = () => {
     <div className="bg-purply min-h-screen overflow-auto bg-scroll relative font-poppins">
       <Header />
 
-      <section>
+      <div className="container">
         <span className="bg-pulp flex rounded-full md:p-12 p-16 absolute md:top-80 top-40 md:right-60 right-0">
           <div></div>
         </span>
@@ -38,7 +38,7 @@ export const Landing = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
